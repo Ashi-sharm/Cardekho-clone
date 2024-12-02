@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CarDekho Clone</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="top-header">
+            <div class="logo">
+                <img src="logooo.png" alt="CarDekho Logo">
+                <div class="logo-text">
+                    <h1>CarDekho</h1>
+                    <p>Badhte India Ka Bharosa</p>
+                </div>
+            </div>
+            <div class="search-bar">
+                <input type="text" placeholder="Search Cars eg. Honda Elevate">
+                <button>🔍</button>
+            </div>
+            <div class="user-actions">
+                <a href="#">English</a>
+                <a href="#">Login / Register</a>
+                <a href="#">Chennai</a>
+            </div>
+        </div>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="#">New Cars</a></li>
+                <li><a href="#">Buy & Sell Used Cars</a></li>
+                <li><a href="#">News, Reviews & Videos</a></li>
+                <li><a href="#">Car Services</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="banner">
+            <div class="overlay-content">
+                <div class="car-search">
+                    <h2>Find your right car</h2>
+                    <div class="car-search-options">
+                        <button id="new-car">New Car</button>
+                        <button id="used-car">Used Car</button>
+                    </div>
+                    <form>
+                        <label>
+                            <input type="radio" name="search-by" value="budget" checked> By Budget
+                        </label>
+                        <label>
+                            <input type="radio" name="search-by" value="brand"> By Brand
+                        </label>
+                        <select>
+                            <option>5 - 10 Lakh</option>
+                            <!-- More options -->
+                        </select>
+                        <select>
+                            <option>All Vehicle Types</option>
+                            <!-- More options -->
+                        </select>
+                        <button type="button">Search</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <ul>
+            <li><a href="#">Nissan South</a></li>
+            <li><a href="#">Subscribe a car</a></li>
+            <li><a href="#">MG Launched</a></li>
+            <li><a href="#">2024 Swift Launched</a></li>
+        </ul>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
